@@ -1,0 +1,14 @@
+.form{
+    text-align: center;
+    background-color: rgba(10, 26, 26, 0.872);
+    color: tomato;
+}
+
+.print{
+    color: blueviolet;
+    font-size: larger;
+}
+.display-4{
+    text-decoration: underline;
+}
+

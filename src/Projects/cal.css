@@ -1,0 +1,43 @@
+.con{
+    background-color: rgb(176, 238, 238);
+}
+.label{
+    /* border: 1px solid black; */
+    font-size: larger;
+}
+.inf{
+    display: flex;
+}
+.container{
+    text-align: center;
+   
+
+}
+/* .dis{
+    display: flex;
+    gap: 20px;
+   padding-left: 40px;
+} */
+
+div{
+    text-align: center;
+    font-size: large;
+}
+
+/* .btn{
+    font-size: larger;
+
+} */
+
+.output{
+  
+    /* text-decoration: underline; */
+    font-weight: bold;
+    font-size: large;
+}
+
+button{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}

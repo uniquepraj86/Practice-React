@@ -1,0 +1,50 @@
+// import React,{useState} from 'react'
+
+// const StudentDetails =()=> {
+
+//   const [details,setDetails] =useState({
+//     rollno:"",
+//     name:"",
+//     email:"",
+//     passward:"",
+//     address:""
+    
+//   })
+  
+//   const handleChange =(e)=>{
+//     const{name,value} = e.target
+
+
+//    setDetails((prev)=>{
+//    return{...prev,[name]:value}
+//    })
+//   };
+
+//   const handleSubmit =(e)=>{
+//     e.preventDefault();
+//     document.getElementById("details").reset()
+//   }
+   
+
+//   return (
+    
+//    <div>
+//      <form id='details' onSubmit={handleSubmit}>
+//       <h3>RollNo: <input type="number" name=' rollno' onChange={handleChange} /></h3>
+//       <h3> Name :   <input type="text"name='name' onChange={handleChange}/></h3>
+//       <h3>E-mail: <input type="email" name='email' onChange={handleChange}/></h3>
+//       <h3>Passward: {""}<input type="password" name='password' onChange={handleChange}/></h3>
+//       <h3>Address: <textarea name='address'onChange={handleChange} ></textarea> </h3>
+//       <button type="submit">submit</button>
+//     </form>
+//      <ul>
+//      {
+//         details.map((user)=>(
+//              <li>{user.}</li>
+//          ))
+//      }
+//     </ul>
+//    </div>
+//   )
+// }
+// export default StudentDetails
